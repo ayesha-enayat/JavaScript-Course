@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Elements by Tag Name</title>
+</head>
+<body>
+    <p onmouseover="makeBig()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, non!</p>
+    <p onmouseover="makeBig()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, non!</p>
+    <p onmouseover="makeBig()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, non!</p>
+
+<!--But suppose you don't want a collection of all the paragraphs in the document. Suppose
+you want just a collection of all the paragraphs within a particular div. No problem. Let's say
+the id of the div is "rules". Here's the code.
+-->
+<div id="div1" onmouseover="changeColor()">
+<p>I am para 1</p>
+<p>I am para 2</p>
+<p>I am para 3</p>
+</div>
+
+
+<table id="table1">
+    <tr>
+        <td>Name</td>
+        <td>Class</td>
+        <td>Section</td>
+    </tr>
+    <tr>
+        <td>ayesha</td>
+        <td>x</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>aqsa</td>
+        <td>ix</td>
+        <td>B</td>
+    </tr>
+</table>
+    <script src="script.js"></script>
+</body>
+</html>

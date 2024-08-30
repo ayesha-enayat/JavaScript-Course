@@ -26,20 +26,25 @@ function checkAddress(email){
 
 
 /*********SETTING FIELD VALUES*******************/
-function  fillCity(){
-    var cityName;
-    var zipEntered=document.getElementById("zip").value;
-    switch(zipEntered){
-        case "60788":
-            cityName="Omaha";
-            break;
-        case "60758":
-            cityName="Chicago";
-            break;
-        case "60348":
-            cityName="Milwaukee";
+// function  fillCity(){
+//     var cityName;
+//     var zipEntered=document.getElementById("zip").value;
+//     switch(zipEntered){
+//         case "60788":
+//             cityName="Omaha";
+//             break;
+//         case "60758":
+//             cityName="Chicago";
+//             break;
+//         case "60348":
+//             cityName="Milwaukee";
             
-    }
-        document.getElementById("city").value=cityName;
-    }
+//     }
+//         document.getElementById("city").value=cityName;
+//     }
 
+function checkName(name){
+    if(document.getElementById('name').value === ""){
+        alert("name is required");
+    }
+}

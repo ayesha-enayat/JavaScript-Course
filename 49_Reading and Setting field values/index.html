@@ -12,7 +12,7 @@
     <!-- the submission is an event that
 applies to the whole form, not the submit button.
 So we can use the submit event on the form -->
-    <form action="" onsubmit="checkAddress('email');">
+    <!-- <form action="" onsubmit="checkAddress('email');">
         <label for="email">Email:</label>
         <input type="email" id="email">
         <input type="submit" value="Submit">
@@ -28,7 +28,26 @@ So we can use the submit event on the form -->
         <input type="text" id="city">
     </form>
 
-    <script src="script.js"></script>
+    -->
+
+
+    <form action="" onsubmit="checkName('name');">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+
+
+
+    
 </body>
+
+
+
+
+<script src="script.js"></script>
 
 </html>
